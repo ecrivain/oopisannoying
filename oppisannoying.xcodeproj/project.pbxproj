@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1D64FE191997D4004D1166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D64FD191997D4004D1166 /* Foundation.framework */; };
+		FC1D6501191997D4004D1166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D6500191997D4004D1166 /* main.m */; };
+		FC1D6505191997D4004D1166 /* oppisannoying.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC1D6504191997D4004D1166 /* oppisannoying.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC1D64F8191997D4004D1166 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FC1D6505191997D4004D1166 /* oppisannoying.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC1D64FA191997D4004D1166 /* oppisannoying */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oppisannoying; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1D64FD191997D4004D1166 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC1D6500191997D4004D1166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC1D6503191997D4004D1166 /* oppisannoying-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oppisannoying-Prefix.pch"; sourceTree = "<group>"; };
+		FC1D6504191997D4004D1166 /* oppisannoying.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = oppisannoying.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1D64F7191997D4004D1166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1D64FE191997D4004D1166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC1D64F1191997D4004D1166 = {
+			isa = PBXGroup;
+			children = (
+				FC1D64FF191997D4004D1166 /* oppisannoying */,
+				FC1D64FC191997D4004D1166 /* Frameworks */,
+				FC1D64FB191997D4004D1166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1D64FB191997D4004D1166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D64FA191997D4004D1166 /* oppisannoying */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1D64FC191997D4004D1166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D64FD191997D4004D1166 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1D64FF191997D4004D1166 /* oppisannoying */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D6500191997D4004D1166 /* main.m */,
+				FC1D6504191997D4004D1166 /* oppisannoying.1 */,
+				FC1D6502191997D4004D1166 /* Supporting Files */,
+			);
+			path = oppisannoying;
+			sourceTree = "<group>";
+		};
+		FC1D6502191997D4004D1166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D6503191997D4004D1166 /* oppisannoying-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1D64F9191997D4004D1166 /* oppisannoying */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1D6508191997D4004D1166 /* Build configuration list for PBXNativeTarget "oppisannoying" */;
+			buildPhases = (
+				FC1D64F6191997D4004D1166 /* Sources */,
+				FC1D64F7191997D4004D1166 /* Frameworks */,
+				FC1D64F8191997D4004D1166 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oppisannoying;
+			productName = oppisannoying;
+			productReference = FC1D64FA191997D4004D1166 /* oppisannoying */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1D64F2191997D4004D1166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = orpheus.io;
+			};
+			buildConfigurationList = FC1D64F5191997D4004D1166 /* Build configuration list for PBXProject "oppisannoying" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC1D64F1191997D4004D1166;
+			productRefGroup = FC1D64FB191997D4004D1166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1D64F9191997D4004D1166 /* oppisannoying */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1D64F6191997D4004D1166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1D6501191997D4004D1166 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC1D6506191997D4004D1166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC1D6507191997D4004D1166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC1D6509191997D4004D1166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oppisannoying/oppisannoying-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC1D650A191997D4004D1166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oppisannoying/oppisannoying-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1D64F5191997D4004D1166 /* Build configuration list for PBXProject "oppisannoying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1D6506191997D4004D1166 /* Debug */,
+				FC1D6507191997D4004D1166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1D6508191997D4004D1166 /* Build configuration list for PBXNativeTarget "oppisannoying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1D6509191997D4004D1166 /* Debug */,
+				FC1D650A191997D4004D1166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1D64F2191997D4004D1166 /* Project object */;
+}
