@@ -10,6 +10,9 @@
 		FC1D64FE191997D4004D1166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D64FD191997D4004D1166 /* Foundation.framework */; };
 		FC1D6501191997D4004D1166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D6500191997D4004D1166 /* main.m */; };
 		FC1D6505191997D4004D1166 /* oppisannoying.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC1D6504191997D4004D1166 /* oppisannoying.1 */; };
+		FC1D650D1919A957004D1166 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D650C1919A957004D1166 /* Person.m */; };
+		FCB07423191AD60C00D39869 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB07422191AD60C00D39869 /* Employee.m */; };
+		FCB07426191AD86900D39869 /* Contractor.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB07425191AD86800D39869 /* Contractor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		FC1D6500191997D4004D1166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC1D6503191997D4004D1166 /* oppisannoying-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oppisannoying-Prefix.pch"; sourceTree = "<group>"; };
 		FC1D6504191997D4004D1166 /* oppisannoying.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = oppisannoying.1; sourceTree = "<group>"; };
+		FC1D650B1919A957004D1166 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FC1D650C1919A957004D1166 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FCB07421191AD60C00D39869 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		FCB07422191AD60C00D39869 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		FCB07424191AD86800D39869 /* Contractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contractor.h; sourceTree = "<group>"; };
+		FCB07425191AD86800D39869 /* Contractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contractor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				FC1D6500191997D4004D1166 /* main.m */,
+				FC1D650B1919A957004D1166 /* Person.h */,
+				FC1D650C1919A957004D1166 /* Person.m */,
+				FCB07421191AD60C00D39869 /* Employee.h */,
+				FCB07422191AD60C00D39869 /* Employee.m */,
+				FCB07424191AD86800D39869 /* Contractor.h */,
+				FCB07425191AD86800D39869 /* Contractor.m */,
 				FC1D6504191997D4004D1166 /* oppisannoying.1 */,
 				FC1D6502191997D4004D1166 /* Supporting Files */,
 			);
@@ -139,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB07423191AD60C00D39869 /* Employee.m in Sources */,
+				FC1D650D1919A957004D1166 /* Person.m in Sources */,
+				FCB07426191AD86900D39869 /* Contractor.m in Sources */,
 				FC1D6501191997D4004D1166 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +271,7 @@
 				FC1D650A191997D4004D1166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
