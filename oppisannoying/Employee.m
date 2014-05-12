@@ -8,11 +8,6 @@
 
 #import "Employee.h"
 
-//@interface Employee () {
-//    
-//}
-//@end
-
 
 @implementation Employee
 

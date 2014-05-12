@@ -13,6 +13,7 @@
 - (float) payOwed:(float)hoursWorked hourlyRate:(float)hourlyRate {
     return hoursWorked * hourlyRate;
     }
+
 - (NSString *)name {
         return [NSString stringWithFormat:@"%@", [super name]];
     }

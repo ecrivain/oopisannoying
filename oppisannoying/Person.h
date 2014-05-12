@@ -11,13 +11,13 @@
 
 @interface Person : NSObject
 
-- (instancetype) initWithFirstName:(NSString *)firstName lastName:(NSString *)lastName sex:(NSString *)sex;
+- (instancetype) initWithFirstName:(NSString *)firstName lastName:(NSString *)lastName status:(NSString *)status;
 
 -(NSString *)name;
 
 @property NSString *firstName;
 @property NSString *lastName;
-@property NSString *sex;
+@property NSString *status;
 
 
 @end

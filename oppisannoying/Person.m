@@ -8,22 +8,29 @@
 
 #import "Person.h"
 
+//@interface Person () {
+//    NSString *_firstName;
+//    NSString *_lastName;
+//}
+//@end
+
 
 @implementation Person
 
-- (instancetype)initWithFirstName:(NSString *)firstName lastName:(NSString *)lastName sex:(NSString *)sex{
+- (instancetype)initWithFirstName:(NSString *)firstName lastName:(NSString *)lastName status:(NSString *)status
+{
     
     self = [super init];
     if (self) {
         _firstName = firstName;
         _lastName = lastName;
-        _sex = sex;
+        _status = status;
     }
     
     return self;
 }
 - (NSString *)name {
-    return [NSString stringWithFormat:@"%@ %@, %@", _firstName, _lastName, _sex];
+    return [NSString stringWithFormat:@"%@ %@, %@", _firstName, _lastName, _status];
 }
 
 
